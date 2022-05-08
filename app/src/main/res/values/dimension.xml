@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="espacios">24dp</dimen>
+    <dimen name="buttons">200dp</dimen>
+    <dimen name="cardRecomendados">250dp</dimen>
+    <dimen name="titulo">24dp</dimen>
+    <dimen name="texto">16dp</dimen>
+</resources>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    tools:context=".Fracment.LoginLogin">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            >
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/espacios" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:src="@drawable/ic_launcher_background"
+                />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/espacios" />
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/espacios" />
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/UserLogin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/usuario"
+                style="@style/Widget.Material3.TextInputLayout.OutlinedBox"
+                >
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textEmailAddress" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/espacios" />
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/contraLogin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/contrasena"
+                style="@style/Widget.Material3.TextInputLayout.OutlinedBox"
+                >
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPassword" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/espacios" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/entrarLogin"
+                android:layout_width="@dimen/buttons"
+                android:layout_height="wrap_content"
+                android:text="@string/entrar"
+                android:onClick="onClickLogin"
+                />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/espacios" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/registroLogin"
+                android:layout_width="@dimen/buttons"
+                android:layout_height="wrap_content"
+                android:text="@string/registro"
+                style="@style/Widget.Material3.Button.OutlinedButton"
+                android:onClick="onClickLogin"
+                />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/espacios" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/recuperarContraLogin"
+                android:layout_width="@dimen/buttons"
+                android:layout_height="wrap_content"
+                android:text="@string/recupearContra"
+                style="@style/Widget.Material3.Button.TextButton"
+                android:onClick="onClickLogin"
+                />
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

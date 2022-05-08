@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary">#A65697</color>
+    <color name="secundary">#623C72</color>
+    <color name="tertiary">#322C52</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="grayDark">#ACACAC</color>
+    <color name="grayLight">#E3E3E3</color>
+</resources>

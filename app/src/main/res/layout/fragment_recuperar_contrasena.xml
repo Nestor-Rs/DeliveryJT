@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fracment.RecuperarContrasena">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/textoRecuperarContrasena"
+            android:textSize="@dimen/espacios"
+            android:textAlignment="center"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView"
+            app:layout_constraintVertical_bias="0.241" />
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/espacios" />
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/UserLogin"
+            style="@style/Widget.Material3.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/correo">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textEmailAddress" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/espacios" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/recuperarRecuperarContrasena"
+            android:layout_width="@dimen/buttons"
+            android:layout_height="wrap_content"
+            android:onClick="onClickLogin"
+            android:text="@string/recuperarCuenta" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/espacios" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/cancelarRecuperarContrasena"
+            style="@style/Widget.Material3.Button.OutlinedButton"
+            android:layout_width="@dimen/buttons"
+            android:layout_height="wrap_content"
+            android:onClick="onClickLogin"
+            android:text="@string/cancelar" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/espacios" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
