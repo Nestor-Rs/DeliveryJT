@@ -19,4 +19,7 @@
     <string name="textoRecuperarContrasena">Para recuperar tu contraseña coloca tu correo</string>
     <string name="texto_de_prueba">Texto de prueba</string>
     <string name="editar">Editar</string>
+    <string name="direccion_por_gps">Direccion por GPS</string>
+    <string name="seleccionar">Seleccionar</string>
+    <string name="pedir">Pedir</string>
 </resources>

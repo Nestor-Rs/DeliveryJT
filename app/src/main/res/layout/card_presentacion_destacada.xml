@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/cardRecomendados"
+    android:layout_height="@dimen/cardRecomendados"
+    android:clickable="true"
+    android:focusable="true"
+    android:checkable="true"
+    style="@style/Widget.Material3.CardView.Elevated"
+    android:layout_marginTop="@dimen/espacios"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:src="@mipmap/ic_launcher" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="@string/texto_de_prueba"
+            android:textSize="@dimen/titulo"
+            android:textColor="@color/primary"
+            android:textAlignment="center"
+            />
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:text="@string/texto_de_prueba"
+            android:textSize="@dimen/texto"
+            android:textAlignment="center"
+            />
+    </LinearLayout>
+</com.google.android.material.card.MaterialCardView>

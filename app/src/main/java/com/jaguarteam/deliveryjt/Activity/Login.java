@@ -9,11 +9,11 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
-import com.jaguarteam.deliveryjt.Fracment.LoginLogin;
-import com.jaguarteam.deliveryjt.Fracment.Registro;
+import com.jaguarteam.deliveryjt.Fragment.LoginLogin;
+import com.jaguarteam.deliveryjt.Fragment.Registro;
 import com.jaguarteam.deliveryjt.R;
-import com.jaguarteam.deliveryjt.Fracment.RecuperarContrasena;
-import com.jaguarteam.deliveryjt.Fracment.RegistroUsuarioExitoso;
+import com.jaguarteam.deliveryjt.Fragment.RecuperarContrasena;
+import com.jaguarteam.deliveryjt.Fragment.RegistroUsuarioExitoso;
 
 public class Login extends AppCompatActivity {
 

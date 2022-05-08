@@ -3,8 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_gravity="center"
-    tools:context=".Fragment.Registro">
+    tools:context=".Fragment.EditarUsuario">
 
     <ScrollView
         android:layout_width="match_parent"
@@ -30,43 +29,7 @@
                 android:layout_height="@dimen/espacios" />
 
             <com.google.android.material.textfield.TextInputLayout
-                android:id="@+id/nombreRegistroUser"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:hint="@string/nombre"
-                style="@style/Widget.Material3.TextInputLayout.OutlinedBox"
-                >
-
-                <com.google.android.material.textfield.TextInputEditText
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:inputType="textPersonName" />
-            </com.google.android.material.textfield.TextInputLayout>
-
-            <Space
-                android:layout_width="match_parent"
-                android:layout_height="@dimen/espacios" />
-
-            <com.google.android.material.textfield.TextInputLayout
-                android:id="@+id/apellidoRegistroUsuario"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:hint="@string/apellido"
-                style="@style/Widget.Material3.TextInputLayout.OutlinedBox"
-                >
-
-                <com.google.android.material.textfield.TextInputEditText
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:inputType="textPersonName" />
-            </com.google.android.material.textfield.TextInputLayout>
-
-            <Space
-                android:layout_width="match_parent"
-                android:layout_height="@dimen/espacios" />
-
-            <com.google.android.material.textfield.TextInputLayout
-                android:id="@+id/correoRegistroUsuario"
+                android:id="@+id/correoEditarUsuario"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="@string/correo"
@@ -84,7 +47,7 @@
                 android:layout_height="@dimen/espacios" />
 
             <com.google.android.material.textfield.TextInputLayout
-                android:id="@+id/telefonoRegistroUsuario"
+                android:id="@+id/telefonoEditarUsuario"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="@string/telefono"
@@ -102,7 +65,7 @@
                 android:layout_height="@dimen/espacios" />
 
             <com.google.android.material.textfield.TextInputLayout
-                android:id="@+id/contrasenaRegistroUsuario"
+                android:id="@+id/contrasenaEditarUsuario"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="@string/contrasena"
@@ -120,7 +83,7 @@
                 android:layout_height="@dimen/espacios" />
 
             <com.google.android.material.textfield.TextInputLayout
-                android:id="@+id/repiteContraRegistroUsuario"
+                android:id="@+id/repiteContraEditarUsuario"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="@string/repiteContrasena"
@@ -139,11 +102,11 @@
                 android:layout_height="@dimen/espacios" />
 
             <com.google.android.material.button.MaterialButton
-                android:id="@+id/registrarseRegistroUsuario"
+                android:id="@+id/editarUsuario"
                 android:layout_width="@dimen/buttons"
                 android:layout_height="wrap_content"
-                android:text="@string/registrarse"
-                android:onClick="onClickLogin"
+                android:text="@string/editar"
+                android:onClick="onClickPerfil"
                 />
 
             <Space
@@ -151,12 +114,12 @@
                 android:layout_height="@dimen/espacios" />
 
             <com.google.android.material.button.MaterialButton
-                android:id="@+id/cancelarRegistroUsuario"
+                android:id="@+id/cancelarEditarUsuario"
                 android:layout_width="@dimen/buttons"
                 android:layout_height="wrap_content"
                 android:text="@string/cancelar"
                 style="@style/Widget.Material3.Button.OutlinedButton"
-                android:onClick="onClickLogin"
+                android:onClick="onClickPerfil"
                 />
         </LinearLayout>
     </ScrollView>

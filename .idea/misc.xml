@@ -4,19 +4,29 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Codigos/AndroidStudioProjects/DeliveryJT/app/src/main/res/drawable/gradient_background.xml" value="0.1195" />
+        <entry key="..\:/Codigos/AndroidStudioProjects/DeliveryJT/app/src/main/res/layout/activity_compra.xml" value="0.20416666666666666" />
         <entry key="..\:/Codigos/AndroidStudioProjects/DeliveryJT/app/src/main/res/layout/activity_dashboard.xml" value="0.20416666666666666" />
+        <entry key="..\:/Codigos/AndroidStudioProjects/DeliveryJT/app/src/main/res/layout/activity_direccion.xml" value="0.20416666666666666" />
         <entry key="..\:/Codigos/AndroidStudioProjects/DeliveryJT/app/src/main/res/layout/activity_login.xml" value="0.18" />
         <entry key="..\:/Codigos/AndroidStudioProjects/DeliveryJT/app/src/main/res/layout/activity_main.xml" value="0.20416666666666666" />
         <entry key="..\:/Codigos/AndroidStudioProjects/DeliveryJT/app/src/main/res/layout/activity_perfil.xml" value="0.20416666666666666" />
+        <entry key="..\:/Codigos/AndroidStudioProjects/DeliveryJT/app/src/main/res/layout/card_direccion.xml" value="0.20416666666666666" />
+        <entry key="..\:/Codigos/AndroidStudioProjects/DeliveryJT/app/src/main/res/layout/card_presentacion.xml" value="0.20416666666666666" />
         <entry key="..\:/Codigos/AndroidStudioProjects/DeliveryJT/app/src/main/res/layout/card_recomendaciones.xml" value="0.20416666666666666" />
         <entry key="..\:/Codigos/AndroidStudioProjects/DeliveryJT/app/src/main/res/layout/card_restaurantes.xml" value="0.20416666666666666" />
         <entry key="..\:/Codigos/AndroidStudioProjects/DeliveryJT/app/src/main/res/layout/dashboard.xml" value="0.20416666666666666" />
+        <entry key="..\:/Codigos/AndroidStudioProjects/DeliveryJT/app/src/main/res/layout/fragment_actualizar_direccion.xml" value="0.20416666666666666" />
+        <entry key="..\:/Codigos/AndroidStudioProjects/DeliveryJT/app/src/main/res/layout/fragment_confirma_pedido.xml" value="0.20416666666666666" />
+        <entry key="..\:/Codigos/AndroidStudioProjects/DeliveryJT/app/src/main/res/layout/fragment_editar_usuario.xml" value="0.20416666666666666" />
+        <entry key="..\:/Codigos/AndroidStudioProjects/DeliveryJT/app/src/main/res/layout/fragment_lista_direccion.xml" value="0.20416666666666666" />
         <entry key="..\:/Codigos/AndroidStudioProjects/DeliveryJT/app/src/main/res/layout/fragment_lista_restaurantes.xml" value="0.20416666666666666" />
         <entry key="..\:/Codigos/AndroidStudioProjects/DeliveryJT/app/src/main/res/layout/fragment_login.xml" value="0.20416666666666666" />
+        <entry key="..\:/Codigos/AndroidStudioProjects/DeliveryJT/app/src/main/res/layout/fragment_progreso_pedido.xml" value="0.20416666666666666" />
         <entry key="..\:/Codigos/AndroidStudioProjects/DeliveryJT/app/src/main/res/layout/fragment_recuperar_contrasena.xml" value="0.20416666666666666" />
         <entry key="..\:/Codigos/AndroidStudioProjects/DeliveryJT/app/src/main/res/layout/fragment_registro.xml" value="0.20416666666666666" />
         <entry key="..\:/Codigos/AndroidStudioProjects/DeliveryJT/app/src/main/res/layout/fragment_registro_usuario_exitoso.xml" value="0.20416666666666666" />
         <entry key="..\:/Codigos/AndroidStudioProjects/DeliveryJT/app/src/main/res/layout/fragment_vista_perfil.xml" value="0.22" />
+        <entry key="..\:/Codigos/AndroidStudioProjects/DeliveryJT/app/src/main/res/layout/fragment_vista_restaurante.xml" value="0.20416666666666666" />
       </map>
     </option>
   </component>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment.ConfirmaPedido">
+
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:orientation="vertical"
+         android:gravity="center"
+         >
+
+         <Space
+             android:layout_width="match_parent"
+             android:layout_height="@dimen/espacios" />
+
+         <com.google.android.material.button.MaterialButton
+             android:id="@+id/entrarLogin"
+             android:layout_width="@dimen/buttons"
+             android:layout_height="wrap_content"
+             android:text="@string/pedir"
+             />
+             <!--android:onClick="onClickLogin"-->
+
+         <Space
+             android:layout_width="match_parent"
+             android:layout_height="@dimen/espacios" />
+
+         <com.google.android.material.button.MaterialButton
+             android:id="@+id/registroLogin"
+             android:layout_width="@dimen/buttons"
+             android:layout_height="wrap_content"
+             android:text="@string/registro"
+             style="@style/Widget.Material3.Button.OutlinedButton"
+             />
+            <!--android:onClick="onClickLogin"-->
+
+ </LinearLayout>
+
+</FrameLayout>

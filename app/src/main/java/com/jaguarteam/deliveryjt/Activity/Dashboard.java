@@ -10,8 +10,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
-import com.jaguarteam.deliveryjt.Fracment.ListaRestaurantes;
-import com.jaguarteam.deliveryjt.Fracment.LoginLogin;
+import com.jaguarteam.deliveryjt.Fragment.ListaRestaurantes;
 import com.jaguarteam.deliveryjt.R;
 
 public class Dashboard extends AppCompatActivity {
@@ -38,6 +37,10 @@ public class Dashboard extends AppCompatActivity {
             case R.id.perfilDashboard:
                 Intent perfil = new Intent(this,Perfil.class);
                 startActivity(perfil);
+                break;
+            case R.id.direccionDashboard:
+                Intent direccion = new Intent(this,Direccion.class);
+                startActivity(direccion);
                 break;
         }
     }

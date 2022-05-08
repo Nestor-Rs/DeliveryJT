@@ -7,9 +7,6 @@ import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
 
-import com.jaguarteam.deliveryjt.Fracment.ListaRestaurantes;
-import com.jaguarteam.deliveryjt.R;
-
 public class IniciadorFragment {
     private Context context;
     private Fragment fragmentInScreen;
