@@ -38,6 +38,7 @@
                 android:id="@+id/UserLogin"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                app:errorEnabled="true"
                 android:hint="@string/usuario"
                 style="@style/Widget.Material3.TextInputLayout.OutlinedBox"
                 >
@@ -55,6 +56,7 @@
             <com.google.android.material.textfield.TextInputLayout
                 android:id="@+id/contraLogin"
                 android:layout_width="match_parent"
+                app:errorEnabled="true"
                 android:layout_height="wrap_content"
                 android:hint="@string/contrasena"
                 style="@style/Widget.Material3.TextInputLayout.OutlinedBox"

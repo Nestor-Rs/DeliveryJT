@@ -20,7 +20,7 @@
         app:layout_constraintVertical_bias="0.099" />
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/textViewRegistro"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/registroExitoso"
@@ -35,7 +35,7 @@
         android:id="@+id/regristroExitoso"
         android:layout_width="@dimen/buttons"
         android:layout_height="wrap_content"
-        android:onClick="onClickLogin"
+        android:onClick="onClickCrear"
         android:text="@string/continuar"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

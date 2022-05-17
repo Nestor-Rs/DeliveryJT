@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.DeliveryJT">
         <activity
+            android:name=".Activity.CrearCuenta"
+            android:exported="false" />
+        <activity
             android:name=".Activity.Compra"
             android:exported="false" />
         <activity

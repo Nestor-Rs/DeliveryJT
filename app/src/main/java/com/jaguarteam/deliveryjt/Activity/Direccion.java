@@ -1,31 +1,37 @@
 package com.jaguarteam.deliveryjt.Activity;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentManager;
+import androidx.fragment.app.FragmentTransaction;
 
 import android.os.Bundle;
 import android.view.View;
 
-import com.google.android.material.card.MaterialCardView;
-import com.jaguarteam.deliveryjt.Clases.IniciadorFragment;
 import com.jaguarteam.deliveryjt.Fragment.ActualizarDireccion;
 import com.jaguarteam.deliveryjt.Fragment.ListaDireccion;
 import com.jaguarteam.deliveryjt.R;
 
 public class Direccion extends AppCompatActivity {
 
-    IniciadorFragment gestorFragments;
+    FragmentManager fragmentManager;
+    FragmentTransaction fragmentTransaction;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_direccion);
 
-        gestorFragments=new IniciadorFragment(this,new ListaDireccion(),R.id.direccionFragment);
+        fragmentManager=getSupportFragmentManager();
+        fragmentTransaction=fragmentManager.beginTransaction();
+        fragmentTransaction.add(R.id.direccionFragment,new ListaDireccion());
+        fragmentTransaction.commit();
     }
 
     public void onClickDireccion(View view){
         switch (view.getId()){
             case R.id.cardGPS:
-                gestorFragments.cambioFracment(new ActualizarDireccion(),R.id.direccionFragment);
+                cambioFracment(new ActualizarDireccion());
                 break;
             case R.id.seleccionarActualizarDireccion:
                 //TODO:Hacer la actualizacion de la direccion
@@ -35,5 +41,11 @@ public class Direccion extends AppCompatActivity {
                 onBackPressed();
                 break;
         }
+    }
+   void cambioFracment(Fragment fragment){
+       FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
+       transaction.replace(R.id.direccionFragment, fragment);
+       transaction.addToBackStack(null);
+       transaction.commit();
     }
 }
