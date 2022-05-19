@@ -30,19 +30,8 @@ public class Direccion extends AppCompatActivity {
     }
 
     public void onClickDireccion(View view){
-        switch (view.getId()){
-            case R.id.cardGPS:
-                Intent mapa = new Intent(this,MapsActivity.class);
-                startActivity(mapa);
-                break;
-            case R.id.seleccionarActualizarDireccion:
-                //TODO:Hacer la actualizacion de la direccion
-                onBackPressed();
-                break;
-            case R.id.cancelarActualizarDireccion:
-                onBackPressed();
-                break;
-        }
+        Intent mapa = new Intent(this,MapsActivity.class);
+        startActivity(mapa);
     }
    void cambioFracment(Fragment fragment){
        FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();

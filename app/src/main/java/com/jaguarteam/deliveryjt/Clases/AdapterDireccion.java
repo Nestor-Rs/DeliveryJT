@@ -3,6 +3,7 @@ package com.jaguarteam.deliveryjt.Clases;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
@@ -15,7 +16,7 @@ public class AdapterDireccion extends RecyclerView.Adapter<AdapterDireccion.View
 
     ArrayList<Direccion> direccionesLista;
 
-    AdapterDireccion(ArrayList<Direccion> publicacionList){
+    public AdapterDireccion(ArrayList<Direccion> publicacionList){
         this.direccionesLista=publicacionList;
     }
 
@@ -39,13 +40,18 @@ public class AdapterDireccion extends RecyclerView.Adapter<AdapterDireccion.View
     class  ViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener {
 
         Direccion miDireccion;
+        TextView nombre,data;
 
         ViewHolder(View itemView){
             super(itemView);
+            nombre=itemView.findViewById(R.id.nombreDireccion);
+            data=itemView.findViewById(R.id.descripcionDireccion);
         }
 
         public  void bindItems(Direccion publicacion){
             miDireccion=publicacion;
+            nombre.setText(miDireccion.getNombre());
+            data.setText(miDireccion.getLatitud()+" "+miDireccion.getLogitud());
         }
 
         public void setOnclikLiseners() {

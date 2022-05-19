@@ -51,14 +51,14 @@ public class ListaRestaurantes extends Fragment {
         View view=inflater.inflate(R.layout.fragment_lista_restaurantes, container, false);
 
 
-        adapterDestacado=new AdapterRestaurante(misRestaurantesDestacados,true);
+        adapterDestacado=new AdapterRestaurante(misRestaurantesDestacados,true,this.getActivity());
         recyclerViewDestacado=(RecyclerView) view.findViewById(R.id.restaurantesDestacadosRecycler);
         recyclerViewDestacado.setLayoutManager(new LinearLayoutManager(view.getContext(),
                 LinearLayoutManager.HORIZONTAL,
                 false));
         recyclerViewDestacado.setAdapter(adapterDestacado);
 
-        adapter=new AdapterRestaurante(misRestaurantes,false);
+        adapter=new AdapterRestaurante(misRestaurantes,false,this.getActivity());
         recyclerView=(RecyclerView) view.findViewById(R.id.restaurantesRecycler);
         recyclerView.setLayoutManager(new LinearLayoutManager(view.getContext(),LinearLayoutManager.VERTICAL,false));
         recyclerView.setAdapter(adapter);
