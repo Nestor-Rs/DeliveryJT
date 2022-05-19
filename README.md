@@ -58,8 +58,10 @@ Donde las pantallas principales es el Login, Dashboar, el perfil del usuario y l
 * Falto que usuario pueda agregar cosas a su carrito
 * Que pueda relizar la accion de comprar y sus consiguientes
 
-![Captura1](img/Login.jpeg){height=100px}
-![Captura2](img/Perfil.jpeg)
-![Captura3](img/Registro.jpeg)
-![Captura4](img/Ubicaciones.jpeg)
-![Captura5](img/Dashboard.jpeg)
+## Capturas
+
+<img src="img/Login.jpeg" alt="drawing" style="width:100px;"/>
+<img src="img/Perfil.jpeg" alt="drawing" style="width:100px;"/>
+<img src="img/Registro.jpeg" alt="drawing" style="width:100px;"/>
+<img src="img/Ubicaciones.jpeg" alt="drawing" style="width:100px;"/>
+<img src="img/Dashboard.jpeg" alt="drawing" style="width:100px;"/>
