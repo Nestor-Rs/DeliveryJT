@@ -44,12 +44,12 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"/>
         <ImageButton
-            android:id="@+id/busquedaDasboard"
+            android:id="@+id/shopCar"
             android:layout_width="0dp"
             android:layout_height="75dp"
             android:layout_weight="1"
-            android:src="@drawable/ic_baseline_search_24"
-            android:background="@drawable/ic_baseline_search_24"
+            android:src="@drawable/ic_baseline_shopping_cart_24"
+            android:background="@drawable/ic_baseline_shopping_cart_24"
             android:onClick="onClickDashboard"
             />
     </LinearLayout>
