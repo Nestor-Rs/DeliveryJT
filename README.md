@@ -14,6 +14,8 @@ Esta aplicación está constituida hasta el momento de:
 
 Donde las pantallas principales es el Login, Dashboar, el perfil del usuario y la vista de las direcciones
 
+
+
 ## ¿Cual fue el alcance de este proyecto?
 
 **Usuario**
@@ -55,3 +57,9 @@ Donde las pantallas principales es el Login, Dashboar, el perfil del usuario y l
 
 * Falto que usuario pueda agregar cosas a su carrito
 * Que pueda relizar la accion de comprar y sus consiguientes
+
+![Captura1](img/Login.jpeg){height=100px}
+![Captura2](img/Perfil.jpeg)
+![Captura3](img/Registro.jpeg)
+![Captura4](img/Ubicaciones.jpeg)
+![Captura5](img/Dashboard.jpeg)
