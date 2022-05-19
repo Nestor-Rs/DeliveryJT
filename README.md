@@ -60,8 +60,7 @@ Donde las pantallas principales es el Login, Dashboar, el perfil del usuario y l
 
 ## Capturas
 
-<img src="img/Login.jpeg" alt="drawing" style="width:100px;"/>
-<img src="img/Perfil.jpeg" alt="drawing" style="width:100px;"/>
-<img src="img/Registro.jpeg" alt="drawing" style="width:100px;"/>
-<img src="img/Ubicaciones.jpeg" alt="drawing" style="width:100px;"/>
-<img src="img/Dashboard.jpeg" alt="drawing" style="width:100px;"/>
+| | ||
+|--|--|--|
+|<img src="img/Login.jpeg" alt="drawing" style="width:100px;"/> |<img src="img/Perfil.jpeg" alt="drawing" style="width:100px;"/>|<img src="img/Registro.jpeg" alt="drawing" style="width:100px;"/>|
+|<img src="img/Ubicaciones.jpeg" alt="drawing" style="width:100px;"/>|<img src="img/Dashboard.jpeg" alt="drawing" style="width:100px;"/>||
