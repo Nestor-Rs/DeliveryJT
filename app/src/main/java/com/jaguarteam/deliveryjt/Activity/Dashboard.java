@@ -52,6 +52,10 @@ public class Dashboard extends AppCompatActivity {
                 Intent direccion = new Intent(this,Direccion.class);
                 startActivity(direccion);
                 break;
+            case R.id.shopCar:
+                Intent carrito = new Intent(this,Compra.class);
+                startActivity(carrito);
+                break;
         }
     }
 }
