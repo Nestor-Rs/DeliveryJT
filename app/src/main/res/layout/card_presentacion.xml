@@ -15,6 +15,7 @@
         android:orientation="horizontal"
         >
         <ImageView
+            android:id="@+id/imagenCardPresentacion"
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:src="@mipmap/ic_launcher" />
@@ -25,6 +26,7 @@
             android:orientation="vertical"
             >
             <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/nombreCardRestaurante"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/texto_de_prueba"
@@ -33,6 +35,7 @@
                 android:textAlignment="center"
                 />
             <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/ubicacionCardRestaurante"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/texto_de_prueba"

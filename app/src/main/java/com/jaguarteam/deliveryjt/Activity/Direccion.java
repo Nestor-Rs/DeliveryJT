@@ -5,6 +5,7 @@ import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
@@ -31,7 +32,8 @@ public class Direccion extends AppCompatActivity {
     public void onClickDireccion(View view){
         switch (view.getId()){
             case R.id.cardGPS:
-                cambioFracment(new ActualizarDireccion());
+                Intent mapa = new Intent(this,MapsActivity.class);
+                startActivity(mapa);
                 break;
             case R.id.seleccionarActualizarDireccion:
                 //TODO:Hacer la actualizacion de la direccion

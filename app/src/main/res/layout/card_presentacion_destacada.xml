@@ -7,7 +7,7 @@
     android:focusable="true"
     android:checkable="true"
     style="@style/Widget.Material3.CardView.Elevated"
-    android:layout_marginTop="@dimen/espacios"
+    android:layout_marginLeft="@dimen/espacios"
     >
     <LinearLayout
         android:layout_width="match_parent"
@@ -15,11 +15,13 @@
         android:orientation="vertical"
         >
         <ImageView
+            android:id="@+id/imagenCardPresentacion"
             android:layout_width="match_parent"
             android:layout_height="100dp"
             android:src="@mipmap/ic_launcher" />
 
         <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/nombreCardRestaurante"
             android:layout_width="match_parent"
             android:layout_height="50dp"
             android:text="@string/texto_de_prueba"
@@ -28,6 +30,7 @@
             android:textAlignment="center"
             />
         <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/ubicacionCardRestaurante"
             android:layout_width="match_parent"
             android:layout_height="100dp"
             android:text="@string/texto_de_prueba"
